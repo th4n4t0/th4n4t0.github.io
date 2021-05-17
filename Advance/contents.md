@@ -2,6 +2,7 @@
 layout: pages
 title: Contents
 date: 2020-05-15
+description: Python Advance Topics
 ---
 
 - Decorators
@@ -13,3 +14,5 @@ date: 2020-05-15
 - Testing
 - Packages
 - Cython
+
+[back](/Coding/Python/python.html)

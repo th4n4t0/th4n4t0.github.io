@@ -2,7 +2,7 @@
 layout: pages
 title: Contents
 date: 2020-05-15
-description: Python Beginner
+description: Python Beginner Topics
 ---
 
 - [Introduction](./intro.html)

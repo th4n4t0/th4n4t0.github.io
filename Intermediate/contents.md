@@ -2,6 +2,7 @@
 layout: pages
 title: Contents
 date: 2020-05-15
+description: Python Intermediate Topics
 ---
 
 - Object Oriented Programming
@@ -17,3 +18,5 @@ date: 2020-05-15
 - Environments
 - Modules
 - Async IO
+
+[back](/Coding/Python/python.html)
