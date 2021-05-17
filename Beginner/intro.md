@@ -29,9 +29,9 @@ For other systems, or if you want to install from source, see the general downlo
 ### Hello world
 
 ```python3
-┌──(Thanatos㉿ParrotOs)-[~/Desktop/thanatos.github.io]
+┌──(aju㉿ParrotOs)-[~]
 └─$ python3
-Python 3.9.5 (default, Feb 28 2021, 17:03:44)
+Python 3.9.2 (default, Feb 28 2021, 17:03:44)
 [GCC 10.2.1 20210110] on linux
 Type "help", "copyright", "credits" or "license" for more information.
 >>> print("Hello World!")
@@ -39,3 +39,5 @@ Hello World!
 >>>
 
 ```
+
+![Alt Text](./helloworld.gif)
