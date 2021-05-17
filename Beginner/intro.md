@@ -1,7 +1,8 @@
 ---
-title: Python Beginner
-layout: contents
+title: Introduction
+layout: pages
 publish: true
+description: Python Beginner
 ---
 
 The python language is one of the most accessible programming languages available because it has simplified syntax and not complicated, which gives more emphasis on natural language. Due to its ease of learning and usage, python codes can be easily written and executed much faster than other programming languages.
@@ -40,4 +41,4 @@ Hello World!
 
 ```
 
-![Alt Text](./Helloworld.gif)
+![Hello World](./Helloworld.gif)

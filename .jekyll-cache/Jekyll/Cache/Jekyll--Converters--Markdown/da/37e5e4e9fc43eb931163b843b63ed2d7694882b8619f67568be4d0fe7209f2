@@ -1,0 +1,17 @@
+I"-<p>Variables are containers where the datas can be stored.
+Variables declaration in <strong>Python</strong> doesn’t require any particular type, and can even after they have been set.The equal sign (=) is used to assign a value to a variable.</p>
+
+<p>```python3
+Python 3.9.2 (default, Feb 28 2021, 17:03:44) 
+[GCC 10.2.1 20210110] on linux
+Type “help”, “copyright”, “credits” or “license” for more information.</p>
+<blockquote>
+  <blockquote>
+    <blockquote>
+      <p>width = 20
+width</p>
+    </blockquote>
+  </blockquote>
+</blockquote>
+
+:ET

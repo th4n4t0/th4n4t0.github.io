@@ -6,7 +6,7 @@ description: Python Beginner
 ---
 
 - [Introduction](./intro.html)
-- Variables
+- [Variables](./variables.html)
 - Conditions
 - Chained Conditionals
 - Operators
