@@ -40,4 +40,4 @@ Hello World!
 
 ```
 
-![Alt Text](./helloworld.gif)
+![Alt Text](./Helloworld.gif)

@@ -2,6 +2,7 @@
 layout: pages
 title: Contents
 date: 2020-05-15
+description: Python Beginner
 ---
 
 - [Introduction](./intro.html)
@@ -16,3 +17,5 @@ date: 2020-05-15
 - Mutable vs Immutable
 - Common Methods
 - File IO
+
+[back](/Coding/Python/python.html)
