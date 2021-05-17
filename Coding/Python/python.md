@@ -5,11 +5,16 @@ description: Python
 
 ## Levels
 
--- Beginner
+ [Beginner](/Beginner/contents.html)
 
--- Intermediate
 
--- Advanced
+
+ [Intermediate](/Intermediate/contents.html)
+
+ 
+
+ [Advance](/Advance/contents.html)
+
+
 
 [back](../coding.html)
-
