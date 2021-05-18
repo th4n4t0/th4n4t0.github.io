@@ -2,7 +2,7 @@ $(document).ready(
   (onsubmit = () => {
     $("#submit-form").validate({
       rules: {
-        name: {
+        firstname: {
           required: true,
           minlength: 5,
         },
@@ -11,36 +11,29 @@ $(document).ready(
           required: true,
           email: true,
         },
-        option: {
+        lastname: {
           required: true,
         },
         subject: {
           required: true,
         },
-        mobile: {
-          required: true,
-          number: true,
-          minlength: 10,
-        },
       },
 
       messages: {
-        name: {
+        firstname: {
           required: "enter your name",
         },
       },
 
       submitHandler: function (form) {
         $.ajax({
-          url: "",
+          url: "https://script.google.com/macros/s/AKfycbxAO4YIK_Dj8C6SukO133S4fRlhcnbVujclaoiBe65tuBoCheHHondizzB1sJ7aZ_bf/exec",
           data: $("#submit-form").serialize(),
           method: "POST",
-          dataType: "jsonp", //you may use jsonp for cross origin request
-          crossDomain: true,
           success: function (response) {
             alert("Form submitted successfully");
             window.location.reload();
-            window.location.href = "index.html";
+            window.location.href = "/index.html";
           },
           error: function (err) {
             alert("Something Error");

@@ -32,8 +32,7 @@ layout: default
       placeholder="Write something.."
       style="height: 200px"
     ></textarea>
-
-    <input type="submit" value="Submit" />
+    <input id="submit" type="submit" value="submit" />
   </form>
   <div style="display: none" id="thankyou_message">
     <h2><em>Thanks</em>for contacting us! we will get back to you soon!</h2>
@@ -45,29 +44,8 @@ layout: default
   crossorigin="anonymous"
   referrerpolicy="no-referrer"
 ></script>
-
-
-
-
-<script>
-  $("#submit-form").submit((e) => {
-    console.log($("#submit-form").serialize());
-    e.preventDefault();
-    $.ajax({
-      url: "https://script.google.com/macros/s/AKfycbxAO4YIK_Dj8C6SukO133S4fRlhcnbVujclaoiBe65tuBoCheHHondizzB1sJ7aZ_bf/exec",
-      data: $("#submit-form").serialize(),
-      method: "post",
-      success: function (response) {
-        alert("Form submitted successfully");
-        window.location.reload();
-        window.location.href = "/";
-      },
-      error: function (err) {
-        alert("Something Error");
-      },
-    });
-  });
-</script>
+<script src="http://ajax.aspnetcdn.com/ajax/jquery.validate/1.11.1/jquery.validate.min.js"></script>
+<script src="/assets/js/validation.js"></script>
 
 <style>
   /* Style inputs with type="text", select elements and textareas */
