@@ -7,6 +7,7 @@ description: Python Beginner Topics
 
 - [Introduction](./intro.html)
 - [Variables](./variables.html)
+- [Operators and input](./operators.html)
 - Conditions
 - Chained Conditionals
 - Operators
