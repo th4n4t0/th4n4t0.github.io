@@ -6,8 +6,6 @@ layout: default
 
 # [Coding](./Coding/coding.html)
 
-
-
 ```js
 // Javascript code with syntax highlighting.
 var fun = function lang(l) {
