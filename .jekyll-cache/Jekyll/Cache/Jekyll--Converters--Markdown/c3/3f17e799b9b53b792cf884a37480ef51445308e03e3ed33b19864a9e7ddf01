@@ -1,0 +1,79 @@
+I"3<p>Operators are special symbols in Python that carry out arithmetic or logical computation. The value that the operator operates is called the operand.</p>
+
+<p>Python divides the operators in the following groups:</p>
+
+<ul>
+  <li>
+    <p>Arithmetic operators</p>
+  </li>
+  <li>Assignment operators</li>
+  <li>Comparison operators</li>
+  <li>Logical operators</li>
+  <li>
+    <p>Identity operators</p>
+  </li>
+  <li>Membership operators</li>
+  <li>
+    <p>Bitwise operators</p>
+
+    <table>
+      <thead>
+        <tr>
+          <th>Operator</th>
+          <th>Name</th>
+          <th>Example</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>+</td>
+          <td>Addition</td>
+          <td>x + y</td>
+        </tr>
+      </tbody>
+      <tbody>
+        <tr>
+          <td>-</td>
+          <td>Subtraction</td>
+          <td>x - y</td>
+        </tr>
+      </tbody>
+      <tbody>
+        <tr>
+          <td>*</td>
+          <td>Multiplication</td>
+          <td>x * y</td>
+        </tr>
+      </tbody>
+      <tbody>
+        <tr>
+          <td>/</td>
+          <td>Division</td>
+          <td>x / y</td>
+        </tr>
+      </tbody>
+      <tbody>
+        <tr>
+          <td>%</td>
+          <td>Modulus</td>
+          <td>x % y</td>
+        </tr>
+      </tbody>
+      <tbody>
+        <tr>
+          <td>**</td>
+          <td>Exponentiation</td>
+          <td>x ** y</td>
+        </tr>
+      </tbody>
+      <tbody>
+        <tr>
+          <td>//</td>
+          <td>Floor division</td>
+          <td>x // y</td>
+        </tr>
+      </tbody>
+    </table>
+  </li>
+</ul>
+:ET

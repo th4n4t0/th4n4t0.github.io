@@ -1,0 +1,13 @@
+I"ç<p>Operators are special symbols in Python that carry out arithmetic or logical computation. The value that the operator operates is called the operand.</p>
+
+<p>Python divides the operators in the following groups:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>Arithmetic operators
+Assignment operators
+Comparison operators
+Logical operators
+Identity operators
+Membership operators
+Bitwise operators
+</code></pre></div></div>
+:ET

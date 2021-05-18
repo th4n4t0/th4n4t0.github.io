@@ -1,0 +1,250 @@
+I"	<p>Operators are special symbols in Python that carry out arithmetic or logical computation. The value that the operator operates is called the operand.</p>
+
+<p>Python divides the operators in the following groups:</p>
+
+<ul>
+  <li>
+    <p>Arithmetic operators</p>
+  </li>
+  <li>
+    <p>Assignment operators</p>
+  </li>
+  <li>
+    <p>Comparison operators</p>
+  </li>
+  <li>
+    <p>Logical operators</p>
+  </li>
+  <li>
+    <p>Identity operators</p>
+  </li>
+  <li>
+    <p>Membership operators</p>
+  </li>
+  <li>
+    <p>Bitwise operators</p>
+  </li>
+</ul>
+
+<h1 id="arithmetic-operators">Arithmetic operators</h1>
+
+<table>
+  <thead>
+    <tr>
+      <th>Operator</th>
+      <th>Name</th>
+      <th>Example</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>+</td>
+      <td>Addition</td>
+      <td>x + y</td>
+    </tr>
+  </tbody>
+  <tbody>
+    <tr>
+      <td>-</td>
+      <td>Subtraction</td>
+      <td>x - y</td>
+    </tr>
+  </tbody>
+  <tbody>
+    <tr>
+      <td>*</td>
+      <td>Multiplication</td>
+      <td>x * y</td>
+    </tr>
+  </tbody>
+  <tbody>
+    <tr>
+      <td>/</td>
+      <td>Division</td>
+      <td>x / y</td>
+    </tr>
+  </tbody>
+  <tbody>
+    <tr>
+      <td>%</td>
+      <td>Modulus</td>
+      <td>x % y</td>
+    </tr>
+  </tbody>
+  <tbody>
+    <tr>
+      <td>**</td>
+      <td>Exponentiation</td>
+      <td>x ** y</td>
+    </tr>
+  </tbody>
+  <tbody>
+    <tr>
+      <td>//</td>
+      <td>Floor division</td>
+      <td>x // y</td>
+    </tr>
+  </tbody>
+</table>
+
+<pre><code class="language-python3">x = 15
+y = 4
+
+# Output: x + y = 19
+print('x + y =',x+y)
+
+# Output: x - y = 11
+print('x - y =',x-y)
+
+# Output: x * y = 60
+print('x * y =',x*y)
+
+# Output: x / y = 3.75
+print('x / y =',x/y)
+
+# Output: x // y = 3
+print('x // y =',x//y)
+
+# Output: x ** y = 50625
+print('x ** y =',x**y)
+</code></pre>
+
+<h1 id="assignment-operators">Assignment Operators</h1>
+
+<table>
+  <thead>
+    <tr>
+      <th>Operator</th>
+      <th>password</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>=</td>
+      <td>x = 5</td>
+    </tr>
+  </tbody>
+  <tbody>
+    <tr>
+      <td>+=</td>
+      <td>x += 3</td>
+    </tr>
+  </tbody>
+  <tbody>
+    <tr>
+      <td>-=</td>
+      <td>x -= 3</td>
+    </tr>
+  </tbody>
+  <tbody>
+    <tr>
+      <td>_=</td>
+      <td>x _= 3</td>
+    </tr>
+  </tbody>
+  <tbody>
+    <tr>
+      <td>/=</td>
+      <td>x /= 3</td>
+    </tr>
+  </tbody>
+  <tbody>
+    <tr>
+      <td>%=</td>
+      <td>x %= 3</td>
+    </tr>
+  </tbody>
+  <tbody>
+    <tr>
+      <td>//=</td>
+      <td>x //= 3</td>
+    </tr>
+  </tbody>
+  <tbody>
+    <tr>
+      <td>**=</td>
+      <td>x **= 3</td>
+    </tr>
+  </tbody>
+  <tbody>
+    <tr>
+      <td>&amp;=</td>
+      <td>x &amp;= 3</td>
+    </tr>
+  </tbody>
+  <tbody>
+    <tr>
+      <td>|=</td>
+      <td>x| = 3</td>
+    </tr>
+  </tbody>
+  <tbody>
+    <tr>
+      <td>^=</td>
+      <td>x ^= 3</td>
+    </tr>
+  </tbody>
+  <tbody>
+    <tr>
+      <td>»=</td>
+      <td>x »= 3</td>
+    </tr>
+  </tbody>
+  <tbody>
+    <tr>
+      <td>«=</td>
+      <td>x «= 3</td>
+    </tr>
+  </tbody>
+</table>
+
+<h1 id="comparison-operators">Comparison Operators</h1>
+
+<table>
+  <thead>
+    <tr>
+      <th>Operator</th>
+      <th>Name</th>
+      <th>Example</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>==</td>
+      <td>Equal</td>
+      <td>x == y</td>
+    </tr>
+  </tbody>
+  <tbody>
+    <tr>
+      <td>!=</td>
+      <td>Not equal</td>
+      <td>x != y</td>
+    </tr>
+  </tbody>
+  <tbody>
+    <tr>
+      <td>&gt;</td>
+      <td>Greater than</td>
+      <td>x &gt; y</td>
+    </tr>
+  </tbody>
+  <tbody>
+    <tr>
+      <td>&gt; &lt;</td>
+      <td>Less than</td>
+      <td>x &lt; y</td>
+    </tr>
+    <tr>
+      <td>&gt; =</td>
+      <td>Greater than or equal to</td>
+      <td>x &gt;= y</td>
+    </tr>
+    <tr>
+      <td>&gt; &lt;=</td>
+      <td>Less than or equal to</td>
+      <td>x &lt;= y</td>
+    </tr>
+  </tbody>
+</table>
+:ET
