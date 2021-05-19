@@ -63,6 +63,6 @@ z = float(3)  # z will be 3.0
 
 ![Variables](./variables.gif)
 
-[Top](#section_name)
+[Top](#)
 
-[back](../Coding/Python/python.html)
+[back](./contents.html)

@@ -1,4 +1,4 @@
-I"’<p><a name="section_name"></a>
+I"y<p><a name="section_name"></a>
 Variables are containers where the datas can be stored.
 Variables declaration in <strong>Python</strong> doesnâ€™t require any particular type, and can even after they have been set.The equal sign (=) is used to assign a value to a variable.</p>
 
@@ -57,7 +57,7 @@ z = float(3)  # z will be 3.0
 
 <p><img src="./variables.gif" alt="Variables" /></p>
 
-<p><a href="#section_name">Top</a></p>
+<p><a href="#">Top</a></p>
 
-<p><a href="../Coding/Python/python.html">back</a></p>
+<p><a href="./contents.html">back</a></p>
 :ET
