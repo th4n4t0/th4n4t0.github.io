@@ -1,0 +1,17 @@
+I"Í<ul>
+  <li><a href="./intro.html">Introduction</a></li>
+  <li><a href="./variables.html">Variables</a></li>
+  <li><a href="./operators.html">Operators and input</a></li>
+  <li><a href="./conditions.html">Conditions</a></li>
+  <li>
+    <p>Loops and Iterables</p>
+  </li>
+  <li>Basic Data Structures</li>
+  <li>Functions</li>
+  <li>Mutable vs Immutable</li>
+  <li>Common Methods</li>
+  <li>File IO</li>
+</ul>
+
+<p><a href="/Coding/Python/python.html">back</a></p>
+:ET

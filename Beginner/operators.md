@@ -114,11 +114,11 @@ Comparison operators are used to compare values. It returns either `True` or `Fa
 | -------- | ---------                | ------- |
 | >        | Greater than             | x > y   |
 | -------- | ---------                | ------- |
-| > <      | Less than                | x < y   |
+| <        | Less than                | x < y   |
 | -------- | ---------                | ------- |
-| > =      | Greater than or equal to | x >= y  |
+| >=       | Greater than or equal to | x >= y  |
 | -------- | ---------                | ------- |
-| > <=     | Less than or equal to    | x <=    |
+| <=       | Less than or equal to    | x <=    |
 | -------- | ---------                | ------- |
 
 ---
@@ -191,4 +191,5 @@ Aju
 ![input](./input.gif)
 
 [Top](#)
+
 [back](./contents.html)

@@ -8,15 +8,14 @@ description: Python Beginner Topics
 - [Introduction](./intro.html)
 - [Variables](./variables.html)
 - [Operators and input](./operators.html)
-- Conditions
-- Chained Conditionals
-- Operators
-- Control Flow (If/Else)
+- [Conditions](./conditions.html)
 - Loops and Iterables
-- Basic Data Structures
+- List and Tuples
+- Strings
 - Functions
-- Mutable vs Immutable
-- Common Methods
+- Error Handling
 - File IO
+- Global and local variables
+- Class and Object
 
 [back](/Coding/Python/python.html)
