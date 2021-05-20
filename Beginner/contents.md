@@ -9,8 +9,8 @@ description: Python Beginner Topics
 - [Variables](./variables.html)
 - [Operators and input](./operators.html)
 - [Conditions](./conditions.html)
-- Loops and Iterables
-- List and Tuples
+- [DataStructure](./DataStructure.html)
+- [Loops and Iterables](./Loops.html)
 - Strings
 - Functions
 - Error Handling
