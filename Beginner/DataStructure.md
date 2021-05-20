@@ -23,59 +23,58 @@ List, Tuple, Set, and Dictionary are the data structures in python that are used
 # dictonary
 
 # Lists
-a = []
+>>> a = []
 
 # Adding Element into list
-a.append(5)
-a.append(10)
-print("Adding 5 and 10 in list", a)
-
+>>> a.append(5)
+>>> a.append(10)
+>>> print("Adding 5 and 10 in list", a)
 Adding 5 and 10 in list [5, 10]
 
 
 # Popping Elements from list
-a.pop()
-print("Popped one element from list", a)
+>>> a.pop()
+>>> print("Popped one element from list", a)
 Popped one element from list [5]
 
 
 # Set
-s = set()
+>>> s = set()
 
 # Adding element into set
-s.add(5)
-s.add(10)
-print("Adding 5 and 10 in set", s)
+>>> s.add(5)
+>>> s.add(10)
+>>> print("Adding 5 and 10 in set", s)
 Adding 5 and 10 in set {10, 5}
 
 
 
 # Removing element from set
-s.remove(5)
-print("Removing 5 from set", s)
+>>> s.remove(5)
+>>> print("Removing 5 from set", s)
 Removing 5 from set {10}
 
 # Tuple
-l=[5]
-t = tuple(l)
+>>> l=[5]
+>>> t = tuple(l)
 
 # Tuples are immutable
-print("Tuple", t)
+>>> print("Tuple", t)
 Tuple (5, )
 
 # Dictonary
-d = {}
+>>> d = {}
 
 # Adding the key value pair
-d[5] = "Five"
-d[10] = "Ten"
-print("Dictonary", d)
+>>> d[5] = "Five"
+>>> d[10] = "Ten"
+>>> print("Dictonary", d)
 Dictonary {10: 'Ten', 5: 'Five'}
 
 
 # Removing key-value pair
-del d[10]
-print("Dictonary", d)
+>>> del d[10]
+>>> print("Dictonary", d)
 Dictonary {5: 'Five'}
 
 

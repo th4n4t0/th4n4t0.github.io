@@ -1,0 +1,205 @@
+I"<h2 id="iterators">Iterators</h2>
+
+<p><a href="./DataStructure.html">Lists, tuples, dictionaries, and sets</a> are all iterable objects. They are iterable containers which you can get an iterator from.</p>
+
+<div class="language-diff highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="gd">- All these objects have a iter() method which is used to get an iterator:
+</span></code></pre></div></div>
+
+<p>Iterators are everywhere in Python. They are elegantly implemented within for loops, comprehensions, generators etc. but are hidden in plain sight. Python iterator object must implement two special methods, <code class="language-plaintext highlighter-rouge">__iter__()</code> and <code class="language-plaintext highlighter-rouge">__next__()</code> collectively called the iterator protocol.</p>
+
+<ul>
+  <li>The iter() function (which in turn calls the <code class="language-plaintext highlighter-rouge">**iter**()</code> method) returns an iterator from them.</li>
+  <li>The next() function to manually iterate through all the items of an iterator. When we reach the end and there is no more data to be returned, it will raise the StopIteration</li>
+</ul>
+
+<pre><code class="language-python3">
+#Example 1
+
+# define a list
+&gt;&gt;&gt; my_list = [4, 7, 0, 3]
+
+# get an iterator using iter()
+&gt;&gt;&gt; my_iter = iter(my_list)
+
+# iterate through it using next()
+
+# Output: 4
+&gt;&gt;&gt; print(next(my_iter))
+
+# Output: 7
+&gt;&gt;&gt; print(next(my_iter))
+
+# next(obj) is same as obj.__next__()
+
+# Output: 0
+&gt;&gt;&gt; print(my_iter.__next__())
+
+# Output: 3
+&gt;&gt;&gt; print(my_iter.__next__())
+
+# This will raise error, no items left
+&gt;&gt;&gt; next(my_iter)
+
+</code></pre>
+
+<p>Iterators with datastructures</p>
+
+<pre><code class="language-python3">
+
+# Example 2
+
+# lists
+&gt;&gt;&gt; a = ['foo', 'bar', 'baz']
+&gt;&gt;&gt; b = ['foo', 'bar', 'baz']
+&gt;&gt;&gt; itra = iter(a)
+&gt;&gt;&gt; itrb = iter(b)
+&gt;&gt;&gt; print("itra: ",list(itra))
+itra: ['foo', 'bar', 'baz']
+
+# set
+&gt;&gt;&gt; print("itrb ",set(itrb))
+itrb: {'foo', 'baz', 'bar'}
+
+</code></pre>
+
+<p><img src="./iteration_ds.gif" alt="Iteration" /></p>
+
+<h1 id="loops">Loops</h1>
+
+<p>Python has two primitive loop commands:</p>
+
+<ul>
+  <li>while loops</li>
+  <li>for loops</li>
+</ul>
+
+<h2 id="the-while-loop">The while Loop</h2>
+
+<p>The while loop in Python is used to iterate over a block of code as long as the test expression (condition) is true.</p>
+
+<pre><code class="language-python3"># syntax
+&gt;&gt;&gt; while test_expression:
+        Body of while
+</code></pre>
+
+<p>In the while loop, test expression is checked first. The body of the loop is entered only if the test_expression evaluates to True. After one iteration, the test expression is checked again. This process continues until the test_expression evaluates to False.</p>
+
+<p align="center">
+  <img src="./python_while_loop.jpg" alt="While loop Flowchart" />
+</p>
+
+<pre><code class="language-python3"># Example 1
+
+count = 0
+&gt;&gt;&gt; while (count &lt; 9):
+...   print 'The count is:', count
+...   count = count + 1
+...
+&gt;&gt;&gt; print "Good bye!"
+
+# Output
+The count is: 0
+The count is: 1
+The count is: 2
+The count is: 3
+The count is: 4
+The count is: 5
+The count is: 6
+The count is: 7
+The count is: 8
+Good bye!
+
+</code></pre>
+
+<p><em>A loop becomes infinite loop if a condition never becomes FALSE. You must use caution when using while loops because of the possibility that this condition never resolves to a FALSE value. This results in a loop that never ends. Such a loop is called an infinite loop.</em></p>
+
+<p><strong>An infinite loop might be useful in client/server programming where the server needs to run continuously so that client programs can communicate with it as and when required.</strong></p>
+
+<h3 id="the-while-loop-else-clause">The While Loop Else Clause</h3>
+
+<pre><code class="language-python3">
+Example 2
+
+#Print a message once the condition is false:
+
+&gt;&gt;&gt; n = 5
+&gt;&gt;&gt; while n &gt; 0:
+...    n = n - 1
+...    if n == 2:
+...        break
+&gt;&gt;&gt;     print(n)
+&gt;&gt;&gt; else:
+&gt;&gt;&gt;     print("Loop is finished")
+
+#Output
+
+1
+2
+3
+4
+5
+i is no longer less than 6
+
+</code></pre>
+
+<h2 id="for-loop">For loop</h2>
+
+<p>A for loop is used for iterating over a sequence (that is either a list, a tuple, a dictionary, a set, or a string).like the <code class="language-plaintext highlighter-rouge">for</code> keyword in other programming languages, and works more like an iterator method as found in other object-orientated programming languages. With the for loop we can execute a set of statements, once for each item in a list, tuple, set etc.</p>
+
+<pre><code class="language-python3"># synatx
+&gt;&gt;&gt; for element in iterable:
+        # do something with element
+</code></pre>
+
+<pre><code class="language-python3">
+# Example 1
+
+&gt;&gt;&gt; my_list = [1, 2, 3, 4]
+&gt;&gt;&gt; 
+&gt;&gt;&gt; for element in my_list:
+&gt;&gt;&gt;     print(element)
+
+1
+2
+3
+4
+</code></pre>
+
+<h2 id="the-break-statement">The break Statement</h2>
+
+<p>The break statement can be used to stop the loop before it has looped through all the items.</p>
+
+<pre><code class="language-python3">
+#Example 1
+
+#Exit the loop when x is "banana":
+
+&gt;&gt;&gt; fruits = ["apple", "banana", "cherry"]
+&gt;&gt;&gt; for x in fruits:
+&gt;&gt;&gt;   print(x)
+&gt;&gt;&gt;   if x == "banana":
+... break
+
+</code></pre>
+
+<h3 id="the-range-function">The range() Function</h3>
+
+<p>This type of <code class="language-plaintext highlighter-rouge">for</code> loop called a <code class="language-plaintext highlighter-rouge">numeric range loop</code>, in which starting and ending numeric values are specified.</p>
+
+<pre><code class="language-python3">
+#Example 1
+
+&gt;&gt;&gt; for n in (0, 1, 2, 3, 4):
+&gt;&gt;&gt;     print(n)
+
+0
+1
+2
+3
+4
+</code></pre>
+
+<p><a href="#">Top</a></p>
+
+<p><a href="./contents.html">Back</a></p>
+:ET

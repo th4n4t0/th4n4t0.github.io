@@ -1,0 +1,123 @@
+I"<p>List, Tuple, Set, and Dictionary are the data structures in python that are used to store and organize the data in an efficient manner. Tuple can be created using <code class="language-plaintext highlighter-rouge">tuple()</code> function. Dictonary can be created using <code class="language-plaintext highlighter-rouge">dict()</code> function. List is mutable i.e we can make any changes in <code class="language-plaintext highlighter-rouge">list()</code>.Set can be created using <code class="language-plaintext highlighter-rouge">set()</code>.</p>
+
+<table>
+  <thead>
+    <tr>
+      <th>List</th>
+      <th>Tuple</th>
+      <th>Set</th>
+      <th>Dictionary</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>List is a non-homogeneous data structure which stores the elements in single row and multiple rows and columns</td>
+      <td>Tuple is also a non-homogeneous data structure which stores single row and multiple rows and columns</td>
+      <td>Set data structure is also non-homogeneous data structure but stores in single row</td>
+      <td>Dictionary is also a non-homogeneous data structure which stores key value pairs</td>
+    </tr>
+    <tr>
+      <td>List allows duplicate elements</td>
+      <td>Tuple allows duplicate elements</td>
+      <td>Set will not allow duplicate elements</td>
+      <td>Set will not allow duplicate elements but keys are not duplicated</td>
+    </tr>
+    <tr>
+      <td>List can be represented by <code class="language-plaintext highlighter-rouge">[]</code></td>
+      <td>Tuple can be represented by<code class="language-plaintext highlighter-rouge">( )</code></td>
+      <td>Set can be represented by <code class="language-plaintext highlighter-rouge">{ }</code></td>
+      <td>Dictionary can be represented by <code class="language-plaintext highlighter-rouge">{} </code></td>
+    </tr>
+    <tr>
+      <td>example: [1, 2, 3, 4, 5]</td>
+      <td>example: (1, 2, 3, 4, 5)</td>
+      <td>example: {1, 2, 3, 4, 5}</td>
+      <td>example: {1, 2, 3, 4, 5}</td>
+    </tr>
+    <tr>
+      <td>List is mutable</td>
+      <td>Tuple is immutable</td>
+      <td>Set is mutable, but no duplicates are allowed</td>
+      <td>Dictionary is mutable. But Keys are not duplicated</td>
+    </tr>
+    <tr>
+      <td>orderd</td>
+      <td>Ordered</td>
+      <td>unorderd</td>
+      <td>ordered</td>
+    </tr>
+  </tbody>
+</table>
+
+<hr />
+
+<pre><code class="language-python3"># use of list, tuple, set and
+# dictonary
+
+# Lists
+&gt;&gt;&gt; a = []
+
+# Adding Element into list
+&gt;&gt;&gt; a.append(5)
+&gt;&gt;&gt; a.append(10)
+&gt;&gt;&gt; print("Adding 5 and 10 in list", a)
+Adding 5 and 10 in list [5, 10]
+
+
+# Popping Elements from list
+&gt;&gt;&gt; a.pop()
+&gt;&gt;&gt; print("Popped one element from list", a)
+Popped one element from list [5]
+
+
+# Set
+&gt;&gt;&gt; s = set()
+
+# Adding element into set
+&gt;&gt;&gt; s.add(5)
+&gt;&gt;&gt; s.add(10)
+&gt;&gt;&gt; print("Adding 5 and 10 in set", s)
+Adding 5 and 10 in set {10, 5}
+
+
+
+# Removing element from set
+&gt;&gt;&gt; s.remove(5)
+print("Removing 5 from set", s)
+Removing 5 from set {10}
+
+# Tuple
+l=[5]
+t = tuple(l)
+
+# Tuples are immutable
+print("Tuple", t)
+Tuple (5, )
+
+# Dictonary
+d = {}
+
+# Adding the key value pair
+d[5] = "Five"
+d[10] = "Ten"
+print("Dictonary", d)
+Dictonary {10: 'Ten', 5: 'Five'}
+
+
+# Removing key-value pair
+del d[10]
+print("Dictonary", d)
+Dictonary {5: 'Five'}
+
+
+
+</code></pre>
+
+<p><img src="./ds.gif" alt="datastructures" /></p>
+
+<p><a href="https://docs.python.org/3/tutorial/datastructures.html">More methods</a></p>
+
+<p><a href="#">Top</a></p>
+
+<p><a href="./contents.html">Back</a></p>
+:ET

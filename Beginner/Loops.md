@@ -23,29 +23,29 @@ Iterators are everywhere in Python. They are elegantly implemented within for lo
 #Example 1
 
 # define a list
-my_list = [4, 7, 0, 3]
+>>> my_list = [4, 7, 0, 3]
 
 # get an iterator using iter()
-my_iter = iter(my_list)
+>>> my_iter = iter(my_list)
 
 # iterate through it using next()
 
 # Output: 4
-print(next(my_iter))
+>>> print(next(my_iter))
 
 # Output: 7
-print(next(my_iter))
+>>> print(next(my_iter))
 
 # next(obj) is same as obj.__next__()
 
 # Output: 0
-print(my_iter.__next__())
+>>> print(my_iter.__next__())
 
 # Output: 3
-print(my_iter.__next__())
+>>> print(my_iter.__next__())
 
 # This will raise error, no items left
-next(my_iter)
+>>> next(my_iter)
 
 ```
 
@@ -57,15 +57,15 @@ Iterators with datastructures
 # Example 2
 
 # lists
-a = ['foo', 'bar', 'baz']
-b = ['foo', 'bar', 'baz']
-itra = iter(a)
-itrb = iter(b)
-print("itra: ",list(itra))
+>>> a = ['foo', 'bar', 'baz']
+>>> b = ['foo', 'bar', 'baz']
+>>> itra = iter(a)
+>>> itrb = iter(b)
+>>> print("itra: ",list(itra))
 itra: ['foo', 'bar', 'baz']
 
 # set
-print("itrb ",set(itrb))
+>>> print("itrb ",set(itrb))
 itrb: {'foo', 'baz', 'bar'}
 
 ```
@@ -85,8 +85,8 @@ The while loop in Python is used to iterate over a block of code as long as the 
 
 ```python3
 # syntax
-while test_expression:
-    Body of while
+>>> while test_expression:
+        Body of while
 ```
 
 In the while loop, test expression is checked first. The body of the loop is entered only if the test_expression evaluates to True. After one iteration, the test expression is checked again. This process continues until the test_expression evaluates to False.
@@ -99,11 +99,11 @@ In the while loop, test expression is checked first. The body of the loop is ent
 # Example 1
 
 count = 0
-while (count < 9):
-   print 'The count is:', count
-   count = count + 1
-
-print "Good bye!"
+>>> while (count < 9):
+...   print 'The count is:', count
+...   count = count + 1
+...
+... print "Good bye!"
 
 # Output
 The count is: 0
@@ -131,14 +131,14 @@ Example 2
 
 #Print a message once the condition is false:
 
-n = 5
-while n > 0:
-    n = n - 1
-    if n == 2:
-        break
-    print(n)
-else:
-    print("Loop is finished")
+>>> n = 5
+>>> while n > 0:
+...    n = n - 1
+...    if n == 2:
+...        break
+...     print(n)
+... else:
+...     print("Loop is finished")
 
 #Output
 
@@ -157,18 +157,18 @@ A for loop is used for iterating over a sequence (that is either a list, a tuple
 
 ```python3
 # synatx
-for element in iterable:
-    # do something with element
+>>> for element in iterable:
+...     # do something with element
 ```
 
 ```python3
 
 # Example 1
 
-my_list = [1, 2, 3, 4]
-
-for element in my_list:
-    print(element)
+>>> my_list = [1, 2, 3, 4]
+>>> 
+>>> for element in my_list:
+...     print(element)
 
 1
 2
@@ -186,11 +186,11 @@ The break statement can be used to stop the loop before it has looped through al
 
 #Exit the loop when x is "banana":
 
-fruits = ["apple", "banana", "cherry"]
-for x in fruits:
-  print(x)
-  if x == "banana":
-    break
+>>> fruits = ["apple", "banana", "cherry"]
+>>> for x in fruits:
+...   print(x)
+...   if x == "banana":
+...     break
 
 ```
 
@@ -202,8 +202,8 @@ This type of `for` loop called a `numeric range loop`, in which starting and end
 
 #Example 1
 
-for n in (0, 1, 2, 3, 4):
-print(n)
+>>> for n in (0, 1, 2, 3, 4):
+...    print(n)
 
 0
 1
