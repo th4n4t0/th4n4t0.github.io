@@ -15,4 +15,4 @@ description: Python Advance Topics
 - Packages
 - Cython
 
-[back](/Coding/Python/python.html)
+[back](/python)

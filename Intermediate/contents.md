@@ -19,4 +19,4 @@ description: Python Intermediate Topics
 - Modules
 - Async IO
 
-[back](/Coding/Python/python.html)
+[back](/python)
