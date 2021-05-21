@@ -3,6 +3,7 @@ layout: page
 title: Operators and Input
 publish: true
 description: Python Beginner
+permalink: operators
 ---
 
 Operators are special symbols in Python that carry out arithmetic or logical computation. The value that the operator operates is called the operand.
@@ -188,8 +189,8 @@ Aju
 'Aju'
 ```
 
-![input](./input.gif)
+![input](./Beginner/input.gif)
 
 [Top](#)
 
-[back](./contents.html)
+[Back](/contents)

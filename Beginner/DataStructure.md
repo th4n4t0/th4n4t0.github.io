@@ -3,6 +3,7 @@ title: Data Structures
 layout: page
 publish: true
 description: Python Beginner
+permalink: DataStructure
 ---
 
 List, Tuple, Set, and Dictionary are the data structures in python that are used to store and organize the data in an efficient manner. Tuple can be created using `tuple()` function. Dictonary can be created using `dict()` function. List is mutable i.e we can make any changes in `list()`.Set can be created using `set()`.
@@ -81,10 +82,10 @@ Dictonary {5: 'Five'}
 
 ```
 
-![datastructures](./ds.gif)
+![datastructures](./Beginner/ds.gif)
 
 [More methods](https://docs.python.org/3/tutorial/datastructures.html)
 
 [Top](#)
 
-[Back](./contents.html)
+[Back](/contents)

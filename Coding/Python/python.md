@@ -5,7 +5,7 @@ description: Python
 
 ## Levels
 
- [Beginner](/Beginner/contents.html)
+ [Beginner](/contents)
 
 
 

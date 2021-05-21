@@ -3,6 +3,7 @@ layout: page
 title: Conditions and If Statements
 publish: true
 description: Python Beginner
+permalink: conditions
 ---
 
 Python supports the usual logical conditions from mathematics:
@@ -25,7 +26,7 @@ These conditions can be used in different ways by loops and If statements. Imple
 b is greater than a
 ```
 
-![if operator](./if_case.gif)
+![if operator](./Beginner/if_case.gif)
 
 ### Note
 
@@ -107,8 +108,8 @@ else:
 
 You can put it all on the same line, if you have only one statement to execute or one for if, and one for else
 
-![ternary operator](./terninary.gif)
+![ternary operator](./Beginner/terninary.gif)
 
 [Top](#)
 
-[back](./contents.html)
+[Back](/contents)

@@ -3,11 +3,12 @@ layout: page
 title: Loops and Iterators
 publish: true
 description: Python Beginner
+permalink: loops
 ---
 
 ## Iterators
 
-[Lists, tuples, dictionaries, and sets](./DataStructure.html) are all iterable objects. They are iterable containers which you can get an iterator from.
+[Lists, tuples, dictionaries, and sets](/DataStructure) are all iterable objects. They are iterable containers which you can get an iterator from.
 
 ```diff
 - All these objects have a iter() method which is used to get an iterator:
@@ -70,7 +71,7 @@ itrb: {'foo', 'baz', 'bar'}
 
 ```
 
-![Iteration](./iteration_ds.gif)
+![Iteration](./Beginner/iteration_ds.gif)
 
 # Loops
 
@@ -92,7 +93,7 @@ The while loop in Python is used to iterate over a block of code as long as the 
 In the while loop, test expression is checked first. The body of the loop is entered only if the test_expression evaluates to True. After one iteration, the test expression is checked again. This process continues until the test_expression evaluates to False.
 
 <p align="center">
-  <img  src="./python_while_loop.jpg" alt="While loop Flowchart">
+  <img  src="./Beginner/python_while_loop.jpg" alt="While loop Flowchart">
 </p>
 
 ```python3
@@ -214,4 +215,4 @@ This type of `for` loop called a `numeric range loop`, in which starting and end
 
 [Top](#)
 
-[Back](./contents.html)
+[Back](/contents)
