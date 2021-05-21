@@ -1,0 +1,21 @@
+I"<h1 id="global-variables">Global variables</h1>
+
+<pre><code class="language-python3">
+x = "global"
+
+def foo():
+    print("x inside:", x)
+
+
+foo()
+print("x outside:", x)
+
+# Output
+
+x inside: global
+x outside: global
+
+</code></pre>
+
+<h1 id="non-local">Non local</h1>
+:ET

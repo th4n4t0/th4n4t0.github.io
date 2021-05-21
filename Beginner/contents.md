@@ -16,7 +16,7 @@ permalink: contents
 - [Functions](/functions)
 - [Error Handling](/errorhandling)
 - [File IO](/filehandling)
-- Global and local variables
+- [Global and local variables](/local_global)
 - Class and Object
 
 [back](/Coding/Python/python.html)
