@@ -1,7 +1,7 @@
 ---
 layout: pages
 description: Programming
-premalink: codingpython
+permalink: coding
 ---
 
 # [Python](/python)

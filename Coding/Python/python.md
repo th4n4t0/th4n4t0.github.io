@@ -8,8 +8,8 @@ permalink: python
 
 [Beginner](/python_beginner)
 
-[Intermediate](/Intermediate/contents.html)
+[Intermediate](/python_intermediate)
 
-[Advance](/Advance/contents.html)
+[Advance](/python_advance)
 
-[back](./Coding/coding.html)
+[Back](/coding)

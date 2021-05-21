@@ -4,7 +4,7 @@ layout: default
 
 # [Writeups](./Writeups/writup.html)
 
-# [Coding](./Coding/coding.html)
+# [Coding](./coding)
 
 ```js
 // Javascript code with syntax highlighting.
