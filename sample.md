@@ -1,0 +1,5 @@
+---
+layout: sample
+permalink: sample
+---
+

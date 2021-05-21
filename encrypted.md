@@ -1,0 +1,4 @@
+---
+layout: encrypt
+permalink: /en
+---

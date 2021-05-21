@@ -1,0 +1,5 @@
+I"/<h1 id="ready"><a href="./Ready/Ready.html">Ready</a></h1>
+<p>Ready is a medium difficulty Linux machine. A vulnerable version of GitLab server leads to a remotecommand execution, by exploiting a combination of SSRF and CRLF vulnerabilities.</p>
+
+<h1 id="monitors"><a href="/monitors">Monitors</a></h1>
+:ET
