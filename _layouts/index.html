@@ -20,6 +20,7 @@
 
       body {
         font-size: 16px;
+        display: none;
       }
 
       label.no-style {
@@ -235,7 +236,9 @@ Filename changed to circumvent adblockers that mistake it for a crypto miner (se
         var instructions = document.getElementById("instructions").value;
         var data = {
           title: pageTitle ? pageTitle : "Protected Page",
-          instructions: instructions ? instructions : "",
+          instructions: instructions
+            ? instructions
+            : "Enter root/administrator hash",
           encrypted: encryptedMsg,
           crypto_tag:
             '<script src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/3.1.9-1/crypto-js.min.js" integrity="sha384-lp4k1VRKPU9eBnPePjnJ9M2RF3i7PC30gXs70+elCVfgwLwx1tv5+ctxdtwxqZa7" crossorigin="anonymous"></scr' +
