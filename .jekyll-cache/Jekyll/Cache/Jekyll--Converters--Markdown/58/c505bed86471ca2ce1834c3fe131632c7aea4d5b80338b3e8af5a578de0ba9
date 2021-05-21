@@ -1,0 +1,5 @@
+I"û<p>Python has many built-in exceptions that are raised when your program encounters an error (something in the program goes wrong). When these exceptions occur, the Python interpreter stops the current process and passes it to the calling process until it is handled. If not handled, the program will crash.</p>
+
+<p>Error handling in python is mainly handled by <code class="language-plaintext highlighter-rouge">try</code>,<code class="language-plaintext highlighter-rouge">except</code> and `finally</p>
+
+:ET

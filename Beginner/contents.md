@@ -14,8 +14,8 @@ permalink: contents
 - [Loops and Iterables](/loops)
 - [Strings](/strings)
 - [Functions](/functions)
-- Error Handling
-- File IO
+- [Error Handling](/errorhandling)
+- [File IO](/filehandling)
 - Global and local variables
 - Class and Object
 
