@@ -3,7 +3,7 @@ layout: pages
 title: Contents
 date: 2020-05-15
 description: Python Beginner Topics
-permalink: contents
+permalink: python_beginner
 ---
 
 - [Introduction](/intro)
@@ -19,4 +19,4 @@ permalink: contents
 - [Global and local variables](/local_global)
 - Class and Object
 
-[back](/Coding/Python/python.html)
+[back](/python)

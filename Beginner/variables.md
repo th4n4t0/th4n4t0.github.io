@@ -4,7 +4,6 @@ layout: page
 publish: true
 description: Python Beginner
 permalink: variables
-
 ---
 
 <a name="section_name"></a>
@@ -67,4 +66,4 @@ z = float(3)  # z will be 3.0
 
 [Top](#)
 
-[Back](/contents)
+[Back](/python_beginner)

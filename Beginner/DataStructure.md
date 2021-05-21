@@ -88,4 +88,4 @@ Dictonary {5: 'Five'}
 
 [Top](#)
 
-[Back](/contents)
+[Back](/python_beginner)

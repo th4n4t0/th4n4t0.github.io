@@ -215,4 +215,4 @@ This type of `for` loop called a `numeric range loop`, in which starting and end
 
 [Top](#)
 
-[Back](/contents)
+[Back](/python_beginner)

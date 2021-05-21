@@ -1,20 +1,15 @@
 ---
 layout: pages
 description: Python
+permalink: python
 ---
 
 ## Levels
 
- [Beginner](/contents)
+[Beginner](/python_beginner)
 
+[Intermediate](/Intermediate/contents.html)
 
+[Advance](/Advance/contents.html)
 
- [Intermediate](/Intermediate/contents.html)
-
- 
-
- [Advance](/Advance/contents.html)
-
-
-
-[back](../coding.html)
+[back](./Coding/coding.html)

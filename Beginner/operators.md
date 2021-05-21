@@ -193,4 +193,4 @@ Aju
 
 [Top](#)
 
-[Back](/contents)
+[Back](/python_beginner)

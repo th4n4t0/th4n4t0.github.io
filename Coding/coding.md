@@ -1,6 +1,9 @@
 ---
 layout: pages
 description: Programming
+premalink: codingpython
 ---
 
-# [Python](./Python/python.html)
+# [Python](/python)
+
+[Back](/)
